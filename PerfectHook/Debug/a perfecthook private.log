@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  RageBot.cpp
+c:\users\kybertop\desktop\polandcheater-perfecthook-183dc5f964e0\perfecthook\XorStr.hpp(125): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1467): note: see declaration of 'vsprintf'
+  LegitBot.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  LagComp.cpp
+  Hooks.cpp
+Hooks.obj : error LNK2019: unresolved external symbol "public: __thiscall legitbot::legitbot(void)" (??0legitbot@@QAE@XZ) referenced in function "public: static class legitbot & __cdecl singleton<class legitbot>::instance(void)" (?instance@?$singleton@Vlegitbot@@@@SAAAVlegitbot@@XZ)
+Hooks.obj : error LNK2019: unresolved external symbol "public: void __thiscall legitbot::OnCreateMove(class CInput::CUserCmd *,class C_BaseEntity *)" (?OnCreateMove@legitbot@@QAEXPAVCUserCmd@CInput@@PAVC_BaseEntity@@@Z) referenced in function "void __stdcall CHLCreateMove(int,float,bool,bool &)" (?CHLCreateMove@@YGXHM_NAA_N@Z)
+..\..\MachoWare\Machoware MEME .dll : fatal error LNK1120: 2 unresolved externals
